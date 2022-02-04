@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: EuferUceda-Pizza
+  config:
+    import: configserver:http://localhost:8888
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher

@@ -1,0 +1,1 @@
+insert into pizza(nombre, descripcion) values('Italiana','Pizza con mucha salsa')
